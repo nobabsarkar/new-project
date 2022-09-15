@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+      <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>BLOG</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+                  integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+                  crossorigin="anonymous">
+      </head>
+
+      <body>
+
+            <div class="container mt-5">
+                  <div class="row justify-content-center">
+                        <div class="col-md-6">
+                              <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                          <h2 class="accordion-header" id="flush-headingOne">
+                                                <button class="accordion-button collapsed" type="button"
+                                                      data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                      aria-expanded="false" aria-controls="flush-collapseOne">
+                                                      LocalStorage And SessionStorage Difference?
+                                                </button>
+                                          </h2>
+                                          <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingOne"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">localStorage and sessionStorage are
+                                                      relatively new APIs (meaning, not all legacy browsers will support
+                                                      them) and are near identical (both in APIs and capabilities) with
+                                                      the sole exception of persistence. sessionStorage (as the name
+                                                      suggests) is only available for the duration of the browser
+                                                      session (and is deleted when the tab or window is closed) - it
+                                                      does, however, survive page reloads</div>
+                                          </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                          <h2 class="accordion-header" id="flush-headingTwo">
+                                                <button class="accordion-button collapsed" type="button"
+                                                      data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                                      aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                      Block Scope And Global Scope Difference?
+                                                </button>
+                                          </h2>
+                                          <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingTwo"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">A code block simply consists of grouped
+                                                      statements inside curly braces ({ }). if statement, loops,
+                                                      function are examples of structure that create a code block. A
+                                                      global variable has global scope. A global variable is accessible
+                                                      from anywhere in the code.</div>
+                                          </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                          <h2 class="accordion-header" id="flush-headingThree">
+                                                <button class="accordion-button collapsed" type="button"
+                                                      data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                      aria-expanded="false" aria-controls="flush-collapseThree">
+                                                      How Does Work Event Loop?
+                                                </button>
+                                          </h2>
+                                          <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingThree"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">The Event Loop has one simple job — to
+                                                      monitor the Call Stack and the Callback Queue. If the Call Stack
+                                                      is empty, the Event Loop will take the first event from the queue
+                                                      and will push it to the Call Stack, which effectively runs it.
+                                                      Such an iteration is called a tick in the Event Loop.</div>
+                                          </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                          <h2 class="accordion-header" id="flush-headingThree">
+                                                <button class="accordion-button collapsed" type="button"
+                                                      data-bs-toggle="collapse" data-bs-target="#flush-collapseThrees"
+                                                      aria-expanded="false" aria-controls="flush-collapseThree">
+                                                      8 ways to get undefine?
+                                                </button>
+                                          </h2>
+                                          <div id="flush-collapseThrees" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingThree"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                      <p>1. variable that is not initialized will give undefined.</p>
+                                                      <p>2. function with no return.</p>
+                                                      <p>3. parameter that is not passed will be undefined.</p>
+                                                      <p>4. if return has nothing on the right side will return undefined.</p>
+                                                      <p>5. property that doesn't exists on an object will give you undefined.</p>
+                                                      <p>6. accessing array elements outside of the index range.</p>
+                                                      <p>7. deleting an element inside an array.</p>
+                                                      <p>8. set a value directly to undefine.</p>
+                                                </div>
+
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+                  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+                  crossorigin="anonymous"></script>
+      </body>
+
+</html>
